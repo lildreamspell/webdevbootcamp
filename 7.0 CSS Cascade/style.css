@@ -1,0 +1,35 @@
+/* Don't change the existing CSS. */
+
+#outer-box {
+  background-color: purple;
+
+}
+
+#outer-box {
+  border: 10px solid purple;
+}
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* my solution for the purple box lol
+
+#outer-box {
+  border: 10px solid purple;
+} */
+
+.white-text {
+  color: white;
+}
+
+.inner-box {
+  background-color: red;
+}
