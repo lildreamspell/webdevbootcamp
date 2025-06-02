@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+.japan {
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+}
+
+.japan-circle {
+    background-color: rgb(196, 5, 5);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    top: 25%;
+    left: 40%;
+}
+
+
+p {
+    color: skyblue;
+}
