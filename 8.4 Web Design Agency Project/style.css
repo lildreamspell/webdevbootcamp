@@ -14,8 +14,78 @@ h1 {
   font-size: 5rem;
 }
 
+.creative-text {
+  display: inline;
+  color: #191970;
+}
+
+span {
+  display: block;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+  
+}
+
+.right {
+  float: right;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.card-title  {
+  display: block;
+}
+.card-text  {
+  text-align: left;
+}
+
 footer {
   text-align: right;
   color: midnightblue;
+  clear: both;
 }
 
+@media (max-width: 600px) {
+  
+  .logo {
+    height: 17px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 55px;
+  }
+  
+  .left {
+    float: none;
+  }
+
+  .right {
+    float: none;
+  }
+
+  .tile-image {
+    height: 200px;
+    width: 370px;
+    display: inline;
+    margin-bottom: 10px;
+  }
+
+  .card-title {
+    margin-bottom: 0;
+  }
+  .card-text {
+    display: block;
+    width: 370px;
+    text-align: justify;
+  }
+}
